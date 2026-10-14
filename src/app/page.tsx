@@ -13,7 +13,7 @@ export default function Home() {
         </p>
         <div className="flex gap-4">
           <a
-            href="cv.pdf"
+            href="#contact"
             className="px-6 py-3 rounded-lg bg-white text-black font-medium hover:bg-zinc-200"
           >
             تواصل معايا
