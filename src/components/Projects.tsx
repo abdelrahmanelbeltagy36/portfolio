@@ -6,28 +6,14 @@ type Project = {
   githubUrl: string;
 };
 
-// غيّر البيانات دي ببياناتك الحقيقية
 const projects: Project[] = [
   {
-    title: "Sensor Monitoring Dashboard",
-    description: "واجهة ويب بتعرض قراءات الحساسات بشكل لحظي مع رسوم بيانية.",
-    tags: ["Next.js", "Tailwind", "MODBUS"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "WhatsApp Automation Workflow",
-    description: "أتمتة رسائل واتساب للعملاء باستخدام n8n و WhatsApp API.",
-    tags: ["n8n", "WhatsApp API", "Automation"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Portfolio Landing Page",
-    description: "صفحة هبوط لعميل، مع تصميم متجاوب وأداء عالي.",
-    tags: ["React", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Online Shop",
+    description:
+      "متجر إلكتروني كامل: كتالوج منتجات، صفحة تفاصيل، سلة محفوظة حتى بعد الـ refresh، وإتمام طلب بيتبعت على واتساب برسالة فيها الفاتورة.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Context API", "WhatsApp"],
+    liveUrl: "https://shop-mauve.vercel.app/",
+    githubUrl: "https://github.com/abdelrahmanelbeltagy36/shop",
   },
 ];
 
