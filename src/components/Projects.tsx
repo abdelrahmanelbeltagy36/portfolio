@@ -15,6 +15,14 @@ const projects: Project[] = [
     liveUrl: "https://shop-mauve.vercel.app/",
     githubUrl: "https://github.com/abdelrahmanelbeltagy36/shop",
   },
+  {
+    title: "Maintenance Tracker",
+    description:
+      "لوحة صيانة للمعدات مع تسجيل دخول وإنشاء حساب، وكل مستخدم بيشوف معداته وسجلاته هو بس، ومخزنة في قاعدة بيانات Supabase.",
+    tags: ["Next.js", "TypeScript", "Supabase", "Auth", "PostgreSQL", "RLS"],
+    liveUrl: "https://maintenance-tracker-beltagy4.vercel.app/login",
+    githubUrl: "https://github.com/abdelrahmanelbeltagy36/maintenance-tracker",
+  },
 ];
 
 export default function Projects() {
