@@ -23,6 +23,14 @@ const projects: Project[] = [
     liveUrl: "https://maintenance-tracker-beltagy4.vercel.app/login",
     githubUrl: "https://github.com/abdelrahmanelbeltagy36/maintenance-tracker",
   },
+  {
+    title: "Belta Bites",
+    description:
+      "موقع مطعم بمنيو متحرك، سلة محفوظة حتى بعد الـ refresh، وطلب بيتبعت على واتساب مع اختيار طريقة الدفع.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "Context API"],
+    liveUrl: "https://belta-bites.vercel.app/",
+    githubUrl: "https://github.com/abdelrahmanelbeltagy36/belta-bites",
+  },
 ];
 
 export default function Projects() {
